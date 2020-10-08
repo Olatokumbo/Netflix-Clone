@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    position: sticky;
+}
+.menu{
+    display: flex;
+    width: 25rem;
+    justify-content: space-evenly;
+    color: #9FB2B4 !important;
+}
+.logo{
+    margin: 0 0.3rem;
+    width: 3.5rem;
+    height: auto;
+}

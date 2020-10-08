@@ -1,0 +1,39 @@
+.container{
+    background: url("../../assets/me.png");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: #9FB2B4;
+}
+
+.header{
+    display: grid;
+    place-items: end;
+    justify-content: flex-end;
+    padding: 2rem 3rem;
+}
+.name{
+    color: white !important;
+    font-size: 4rem !important;
+    font-weight: 600 !important;
+    text-align: end;
+    width: fit-content;
+}
+.info{
+    color: white !important;
+    width: 40rem;
+    text-align: end;
+}
+
+.socials{
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 17rem;
+}
+.socials img{
+    width: 2rem;
+}
