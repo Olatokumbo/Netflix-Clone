@@ -25,7 +25,8 @@
 }
 
 .mainContent{
-    padding: 4rem;
+    margin: auto;
+    padding: 4rem 0;
     display: flex;
     justify-content: space-between;
 }

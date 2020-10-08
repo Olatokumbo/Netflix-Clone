@@ -1,0 +1,34 @@
+.container{
+    background-color: whitesmoke;
+    height: 80vh;
+    padding: 2rem;
+    text-align: center;
+}
+
+.title{
+    color: gray !important;
+    font-size: 1.4rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.projectGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    /* padding: 10px; */
+    place-items: center;
+    margin-bottom: 3rem;
+}
+
+.project{
+    width: 19rem;
+    height: 10rem;
+}
+
+.project:nth-of-type(odd){
+    justify-self: end;
+}
+
+.project:nth-of-type(even){
+    justify-self: baseline;
+}
