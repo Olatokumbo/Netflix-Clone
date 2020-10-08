@@ -1,0 +1,66 @@
+.container{
+    background-color: #23282E;
+    color:#D9D9D9 !important;
+    padding: 7rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerLeft{
+    margin-right: 1rem;
+}
+.headerLeft p{
+    width: fit-content;
+    font-size: 1.5rem;
+}
+.headerRight{
+    flex: 2
+}
+.box{
+    height: 1.2rem;
+    background: #33FFA8;
+    border-radius: 10px;
+}
+
+.mainContent{
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.leftContent{
+    display: flex;
+    margin: 1rem;
+}
+.mark{
+    height: fit-content;
+}
+.mark2{
+    height: fit-content;
+    transform: rotate(180deg);
+    align-self: flex-end;
+    width: fit-content;
+}
+.wisdom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-left: 1rem;
+}
+.quotes{
+    width: 18rem;
+}
+
+.about{
+    width: 23rem;
+}
+
+.author{
+    font-weight: lighter !important;
+    font-size: small !important;
+}
+
+.rightContent{
+    margin: 1rem;
+}
