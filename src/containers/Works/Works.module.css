@@ -1,6 +1,6 @@
 .container{
     background-color: whitesmoke;
-    height: 80vh;
+    /* height: 80vh; */
     padding: 2rem;
     text-align: center;
 }
@@ -19,16 +19,49 @@
     place-items: center;
     margin-bottom: 3rem;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #23282ec4;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .gridItem{
+    position: relative;
+  }
+  .gridItem:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
 
 .project{
     width: 19rem;
     height: 10rem;
 }
 
-.project:nth-of-type(odd){
+.gridItem:nth-of-type(odd){
     justify-self: end;
 }
 
-.project:nth-of-type(even){
+.gridItem:nth-of-type(even){
     justify-self: baseline;
 }
