@@ -13,6 +13,7 @@ const Navbar = () => {
         <Typography>Home</Typography>
         <Typography>About</Typography>
         <Typography>Works</Typography>
+        <Typography>Skills</Typography>
         <Typography>Contact</Typography>
         </div>
       </div>
