@@ -26,7 +26,7 @@ const options = {
 };
 
 const data = {
-  labels: ["ReactJS", "NodeJS", "Git", "Figma/Photoshop", "Firebase", "HTML"],
+  labels: ["ReactJS", "NodeJS", "Git", "Photoshop", "Firebase", "HTML"],
   datasets: [
     {
       label: "Skills",
@@ -41,7 +41,7 @@ const data = {
 const BarGraph = () => {
   return (
     <div>
-      <HorizontalBar data={data} options={options} width={"30%"} height={"11%"}/>
+      <HorizontalBar data={data} options={options} width={"30%"} height={"9%"}/>
     </div>
   );
 };

@@ -7,9 +7,11 @@
     background-size: cover;
     height: 100vh;
     background-color: #9FB2B4;
+    width: 100%
 }
 
 .header{
+    margin-top: 2rem;
     display: grid;
     place-items: end;
     justify-content: flex-end;
@@ -36,4 +38,42 @@
 }
 .socials img{
     width: 2rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .container{
+        text-align: center;
+    }
+    .header{
+        display: inline-grid;
+    }
+    .name{
+        font-size: 2.5rem !important;
+        justify-self: center !important;
+    }
+    .info{
+        font-size: small !important;
+        width: 20rem;
+        justify-self: center;
+        text-align: center;
+        /* text-align-last: left */
+    }
+    .socials{
+        width: auto;
+    }
+    .socials img{
+        margin: 0 1rem;
+    }
+    .container{
+        background-position: top;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .header{
+        padding: 0;
+    }
+    .name{
+        font-size: 2rem !important;
+    }
 }

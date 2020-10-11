@@ -14,7 +14,7 @@ const Skills = () => {
         </span>
         <span></span>
       </div>
-      <Typography className={style.subtitle}>Here's some of the technologies that I used most of the time </Typography>
+      <Typography className={style.subtitle}>Here's some of the technologies that I use most of the time </Typography>
       <BarGraph />
     </div>
   );

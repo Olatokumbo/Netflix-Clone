@@ -9,7 +9,12 @@
     display: flex;
     width: 25rem;
     justify-content: space-evenly;
-    color: #9FB2B4 !important;
+    color: white !important;
+}
+
+.menu p:hover{
+    color: teal;
+    cursor: pointer;
 }
 .logo{
     margin: 0 0.3rem;
@@ -23,3 +28,13 @@
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+@media only screen and (max-width: 610px) {
+    .container{
+        flex-direction: column;
+    }
+    .menu{
+        width: 20rem;
+    }
+}

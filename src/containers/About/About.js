@@ -18,17 +18,11 @@ const About = () => {
           <img className={style.mark} src={Quotes} alt="" />
           <div className={style.wisdom}>
             <Typography className={style.quotes} component="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Learning and innovation go hand in hand. The arrogance of success
+              is to think that what you did yesterday will be sufficient for
+              tomorrow.
             </Typography>
-            <Typography className={style.author}>
-              THOMAS EDISON, 1893
-            </Typography>
+            <Typography className={style.author}>WILLIAM POLLARD</Typography>
             <img className={style.mark2} src={Quotes} alt="" />
           </div>
         </div>

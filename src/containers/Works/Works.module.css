@@ -65,3 +65,12 @@
 .gridItem:nth-of-type(even){
     justify-self: baseline;
 }
+
+@media only screen and (max-width: 700px){
+    .projectGrid{
+      grid-template-columns: auto;
+    }
+    .gridItem{
+      justify-self: center !important;
+    }
+}
