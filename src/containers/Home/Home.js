@@ -8,7 +8,7 @@ import Facebook from "../../assets/facebook.png";
 import style from "./Home.module.css";
 const App = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="home">
       <Navbar />
       <div className={style.header}>
         <Typography className={style.name} >I'm David Odesola</Typography>

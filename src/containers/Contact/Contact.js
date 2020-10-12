@@ -3,7 +3,7 @@ import { Typography, TextField, Button } from "@material-ui/core";
 import style from "./Contact.module.css";
 const Contact = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="contact">
       <Typography className={style.header}>Contact Me</Typography>
       <div className={style.contactMain}>
         <div className={style.contactLeft}></div>

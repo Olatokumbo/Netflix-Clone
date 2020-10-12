@@ -4,7 +4,7 @@ import Quotes from "../../assets/quotes.png";
 import style from "./About.module.css";
 const About = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="about">
       <div className={style.header}>
         <div className={style.headerLeft}>
           <Typography>About Me</Typography>

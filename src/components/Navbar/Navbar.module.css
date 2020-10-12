@@ -3,7 +3,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
-    position: sticky;
+    position: fixed;
+    width: inherit;
+}
+
+.container.active{
+    background-color: rgb(39, 92, 136);
 }
 .menu{
     display: flex;

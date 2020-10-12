@@ -7,7 +7,7 @@ import Image4 from "../../assets/covid.png";
 import style from "./Works.module.css";
 const Works = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="works">
       <Typography className={style.title}>My Works</Typography>
       <div className={style.projectGrid}>
         <div className={style.gridItem}>

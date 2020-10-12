@@ -4,7 +4,7 @@ import BarGraph from "../../components/BarGraph/BarGraph";
 import style from "./Skills.module.css";
 const Skills = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="skills">
       <div className={style.divider}>
         <span></span>
         <span>
