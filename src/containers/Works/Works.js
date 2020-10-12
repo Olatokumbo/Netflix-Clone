@@ -8,7 +8,7 @@ import style from "./Works.module.css";
 const Works = () => {
   return (
     <div className={style.container} id="works">
-      <Typography className={style.title}>My Works</Typography>
+      <Typography className={style.title}>Some of My Works</Typography>
       <div className={style.projectGrid}>
         <div className={style.gridItem}>
           <img className={style.project} src={Image1} alt="" />

@@ -5,10 +5,19 @@
     padding: 0.5rem;
     position: fixed;
     width: inherit;
+    background-color: transparent;
 }
 
-.container.active{
-    background-color: rgb(39, 92, 136);
+.containerActive{
+    background: rgb(8,52,94);
+    background: linear-gradient(159deg, rgba(8,52,94,1) 0%, rgba(120,185,89,0.9556197478991597) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    position: fixed;
+    width: inherit;
+    z-index: 1;
 }
 .menu{
     display: flex;
@@ -18,7 +27,7 @@
 }
 
 .menu p:hover{
-    color: teal;
+    color: rgb(126, 213, 235);
     cursor: pointer;
 }
 .logo{
@@ -36,10 +45,11 @@
 
 
 @media only screen and (max-width: 610px) {
-    .container{
+    .container, .containerActive{
         flex-direction: column;
     }
     .menu{
+        margin: 1rem;
         width: 20rem;
     }
 }

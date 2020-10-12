@@ -41,7 +41,7 @@ const data = {
 const BarGraph = () => {
   return (
     <div>
-      <HorizontalBar data={data} options={options} width={"30%"} height={"9%"}/>
+      <HorizontalBar data={data} options={options} width={30} height={9}/>
     </div>
   );
 };

@@ -1,11 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 import { Typography } from "@material-ui/core";
 import { Link } from "react-scroll";
 import Logo from "../../assets/logo.png";
 import style from "./Navbar.module.css";
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false);
+  const changeBackground = () =>{
+    if(window.scrollY >=20)
+    setNavbar(true)
+    else
+    setNavbar(false)
+  }
+  window.addEventListener("scroll", changeBackground);
   return (
-    <div className={style.container}>
+    <div className={navbar ? style.containerActive : style.container }>
       <div className={style.left}>
         <img className={style.logo} src={Logo} alt="" />
       </div>
@@ -24,6 +32,7 @@ const Navbar = () => {
             activeClass="active"
             to="about"
             spy={true}
+            offset={-20}
             smooth={true}
             duration={500}
           >
@@ -32,6 +41,7 @@ const Navbar = () => {
           <Link
             activeClass="active"
             to="works"
+            offset={-80}
             spy={true}
             smooth={true}
             duration={500}
@@ -42,7 +52,7 @@ const Navbar = () => {
             activeClass="active"
             to="skills"
             spy={true}
-            offset={-40}
+            offset={-80}
             smooth={true}
             duration={500}
           >
@@ -52,6 +62,7 @@ const Navbar = () => {
             activeClass="active"
             to="contact"
             spy={true}
+            offset={-80}
             smooth={true}
             duration={500}
           >
