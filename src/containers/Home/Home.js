@@ -20,7 +20,7 @@ const App = () => {
         </Typography>
         <div className={style.socials}>
         <a href="https://www.linkedin.com/in/david-odesola/" target="blank"><img src={Linkedin} alt=""/></a>
-        <a href="https://github.com/Olatokumbo" target="blank"><img src={Github} alt=""/></a>
+        <a href="https://www.github.com/Olatokumbo" target="blank"><img src={Github} alt=""/></a>
         <a href="https://www.facebook.com/profile.php?id=100005963777682" target="blank"><img src={Facebook} alt=""/></a>
         <a href="https://www.instagram.com/diaviid0/" target="blank"><img src={Instagram} alt=""/></a>
         </div>

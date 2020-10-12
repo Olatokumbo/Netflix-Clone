@@ -1,0 +1,14 @@
+.container{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #23282e;
+    height: 10rem;
+    align-items: center;
+}
+
+.copyRight{
+    font-size: small !important;
+    color: rgb(180, 180, 180) !important;
+}
