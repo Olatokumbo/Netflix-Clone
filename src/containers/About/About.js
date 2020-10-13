@@ -35,12 +35,12 @@ const About = () => {
             Furthermore, I gotta say that this goal really fueled my interests
             in the field of software engineering because nowadays almost
             everything that we actually interact with each day is running on
-            some sort of software. It was then that I decided to focus my
-            attention in the area of web development due to my long-time
-            interest on how it actually works. So now as a self-taught web
-            developer with over 2 years experience, it has always been a great
-            joy and priviledge for me to work with clients on varying projects
-            knowing that my programs are being used ny others
+            some sort of software. I decided to focus my attention in the area
+            of web development because I had this long-time interest on how it
+            actually works. So now as a self-taught web developer with over 2
+            years experience, it has always been a great joy and priviledge for
+            me to work with clients on varying projects knowing that my programs
+            are being used by others
           </Typography>
           <Typography
             className={style.about}
@@ -49,7 +49,7 @@ const About = () => {
           >
             As a developer, I always try my absolute best to keep myself updated
             on the latest software trends or frameworks, and I would say that
-            this has really helped to me to become a better developer overall.
+            this has really helped me to become better.
           </Typography>
         </div>
       </div>
