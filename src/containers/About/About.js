@@ -28,28 +28,28 @@ const About = () => {
         </div>
         <div className={style.rightContent}>
           <Typography className={style.about} component="p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            eleifend lobortis metus. Sed luctus faucibus fringilla. Maecenas
-            libero lectus, ultrices eu fringilla sit amet, consequat a odio.
-            Etiam convallis risus molestie arcu pulvinar, et lobortis diam
-            auctor. Donec in dui magna. Donec vitae leo consectetur, fringilla
-            metus et, accumsan mauris. In venenatis mollis arcu, vel semper
-            purus laoreet nec. Morbi pellentesque sem at dapibus tempor. Ut
-            massa nibh, euismod vel scelerisque et, accumsan ut nibh. Maecenas
-            finibus blandit nibh ac bibendum. Nullam massa lectus, fermentum
-            viverra felis nec, condimentum porttitor ligula. Donec finibus nec
-            tortor ac imperdiet. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia curae; Mauris quis diam vitae
-            odio euismod elementum at at justo.
+            As a start, I grew up in a small town in the Philippines. Ever since
+            I was young, I have always been so fascinated with technology. It
+            has always been a goal of mine to actually develop something useful
+            that would at some point reach various people all over the world.
+            Furthermore, I gotta say that this goal really fueled my interests
+            in the field of software engineering because nowadays almost
+            everything that we actually interact with each day is running on
+            some sort of software. It was then that I decided to focus my
+            attention in the area of web development due to my long-time
+            interest on how it actually works. So now as a self-taught web
+            developer with over 2 years experience, it has always been a great
+            joy and priviledge for me to work with clients on varying projects
+            knowing that my programs are being used ny others
           </Typography>
           <Typography
             className={style.about}
             component="p"
             style={{ marginTop: "1rem" }}
           >
-            Cras iaculis leo vel augue molestie, pretium vestibulum odio
-            accumsan. Vivamus a eros sed est laoreet laoreet. Proin cursus
-            volutpat magna nec accumsan. Cras tristique dignissim pretium.
+            As a developer, I always try my absolute best to keep myself updated
+            on the latest software trends or frameworks, and I would say that
+            this has really helped to me to become a better developer overall.
           </Typography>
         </div>
       </div>
