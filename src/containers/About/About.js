@@ -38,14 +38,14 @@ const About = () => {
               something useful that would at some point reach various people all
               over the world. Furthermore, I gotta say that this goal really
               fueled my interests in the field of software engineering because
-              nowadays almost everything that we actually interact with each day
-              is running on some sort of software. I decided to focus my
-              attention in the area of web development because I had this
-              long-time interest on how it actually works. So now as a
-              self-taught web developer with over 2 years experience, it has
-              always been a great joy and priviledge for me to work with clients
-              on varying projects knowing that my programs are being used by
-              others
+              nowadays almost everything that we actually interact with on a
+              daily basis is running on some sort of software. However, I
+              decided to focus my attention in the area of web development
+              because that was something that I have always been so fascinated
+              about. So now as a self-taught web developer with over 2 years
+              experience, it has always been a great privilege for me to work
+              with clients on varying projects knowing that my projects are
+              being used by others.
             </Typography>
             <Typography
               className={style.about}
@@ -53,7 +53,7 @@ const About = () => {
               style={{ marginTop: "1rem" }}
             >
               As a developer, I always try my absolute best to keep myself
-              updated on the latest software trends or frameworks, and I would
+              updated on the latest software trends or frameworks; I would
               say that this has really helped me to become better software
               developer.
             </Typography>
