@@ -4,11 +4,13 @@ import Image1 from "../../assets/image1.png";
 import Image2 from "../../assets/image2.png";
 import Image3 from "../../assets/image3.png";
 import Image4 from "../../assets/covid.png";
+import Flip from 'react-reveal/Flip';
 import style from "./Works.module.css";
 const Works = () => {
   return (
     <div className={style.container} id="works">
       <Typography className={style.title}>Some of My Works</Typography>
+      <Flip top cascade>
       <div className={style.projectGrid}>
         <div className={style.gridItem}>
           <img className={style.project} src={Image1} alt="" />
@@ -35,6 +37,7 @@ const Works = () => {
           </a>
         </div>
       </div>
+      </Flip>
       <Typography variant="body2" color="textSecondary">
         Check out more of my Projects at my GitHub profile&nbsp;
         <a href="https://github.com/Olatokumbo" target="blank">

@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { Typography } from "@material-ui/core";
 import { Link } from "react-scroll";
 import Logo from "../../assets/logo.png";
+import Fade from 'react-reveal/Fade';
 import style from "./Navbar.module.css";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -18,6 +19,7 @@ const Navbar = () => {
         <img className={style.logo} src={Logo} alt="" />
       </div>
       <div className={style.right}>
+        <Fade top cascade>
         <div className={style.menu}>
           <Link
             activeClass="active"
@@ -69,6 +71,7 @@ const Navbar = () => {
             <Typography>Contact</Typography>
           </Link>
         </div>
+        </Fade>
       </div>
     </div>
   );

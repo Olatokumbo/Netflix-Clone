@@ -1,28 +1,28 @@
 import React from "react";
 import { HorizontalBar } from "react-chartjs-2";
-
+import Zoom from "react-reveal/Zoom";
 const options = {
   scales: {
     xAxes: [
       {
         stacked: true,
         gridLines: {
-            display: false,
-          },
+          display: false,
+        },
       },
     ],
     yAxes: [
       {
         stacked: true,
         gridLines: {
-            display: false,
-          },
+          display: false,
+        },
       },
     ],
   },
   legend: {
-    display: false
- },
+    display: false,
+  },
 };
 
 const data = {
@@ -41,7 +41,9 @@ const data = {
 const BarGraph = () => {
   return (
     <div>
-      <HorizontalBar data={data} options={options} width={30} height={9}/>
+      <Zoom top>
+        <HorizontalBar data={data} options={options} width={30} height={9} />
+      </Zoom>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography, TextField, Button } from "@material-ui/core";
+import Fade from 'react-reveal/Fade';
 import style from "./Contact.module.css";
 const Contact = () => {
   return (
@@ -7,6 +8,7 @@ const Contact = () => {
       <Typography className={style.header}>Contact Me</Typography>
       <div className={style.contactMain}>
         <div className={style.contactLeft}></div>
+        <Fade top cascade>
         <form className={style.contactRight}>
           <div className={style.info}>
             <TextField
@@ -41,6 +43,7 @@ const Contact = () => {
           />
           <Button type="submit" variant="contained" color="primary">Submit</Button>
         </form>
+        </Fade>
       </div>
     </div>
   );
